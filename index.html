@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loading Page</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    height: 100vh;
+  }
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*background-color: rgba(255, 255, 255, 0.7);*/
+    padding: 20px;
+    border-radius: 10px;
+    color: #FFFF00;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="loading.jpg" alt="Image" />
+  <div class="overlay">
+    <h2>Loading soon...</h2>
+  </div>
+</div>
+
+</body>
+</html>
